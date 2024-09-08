@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Celebrities Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- Introduction
+- Features
+- Technologies Used
+- Installation and Usage
+- Contributing
+- License
+- Contact
 
-## Available Scripts
+## Introduction
+Welcome to the Celebrities Dashboard! This powerful and user-friendly web application is designed to help you manage celebrity profiles around the globe efficiently and effectively.
 
-In the project directory, you can run:
+## Features
+### - Celebrities List:
+        On the landing page, there will be a list of cebrities around the globe showing each user profile picture and full name.
+### - Details of each user:
+        Each user card is an accordion. You can expand and collapse the user details by clicking on down/up arrow placed at right side of profile card.
+        You can expand one user at a time. On expanding the user, you can find the details of corresponding user like Age, Gender, Country and Description.
+### - User management:
+        After expandig the user details, you will find couple of user management options like delete and edit.
+        On click of Delete icon, a popup will be showed up and you are asked to confirm the deletion of selected user. On confirming deletion, the corresponding user will be removed from the list. On clicking on the cancel button in popup, the user deletion operation will be aborted.
+        You can edit the usr details by clicking on edit icon on expanded user profile. On enabling the edit mode of selected user, you can find text fields to edit user name, age, country and description and a dropdown to select gender.
+        You cannot update your details with invalid details.
+        After entering valid details, you can save the changes by clicking on Tick icon.
+        You cannot edit multiple users at same time.
+        If not willing to update the details, you can abort edit by clicking on Cancel icon which will keep previous changes.
+### - User search functionality
+        One can search for users by giving user name in the search bar.
+        If search value is an empty string or just spaces, all users will be showed as search results.
+### - Responsive design
+        The dashboard is a responsive web application.
+        The web application will adjust the view as per the resolution and will work in all desktops, tables and mobiles.
+### - Reusable components
+        Implemented a reusable Modal Popup component which can be used to import and can shape the modal content as per the requirement.
+### - Performance optimization
+        Implemented debouncing for user search which is an important performance optimization technique when it comes to limiting frequent API calls.
 
-### `npm start`
+## Technologies Used
+- Frontend: HTML, CSS, JavaScript, React, TailwindCSS
+- State Management: Redux Toolkit, React-Redux
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Usage
+Follow these steps to set up and run the React application on your local machine:
+1. Clone the repository:
+    `https://github.com/dhanasekhardsv/celebrities-profiles.git`
+2. Navigate to the project directory:
+    cd celebrities-profiles
+3. Install dependencies:
+    Using npm: npm install
+    Using yarn: yarn install
+4. Start the development server:
+    Using npm: npm start
+    Using yarn: yarn start
+5. Open your browser and navigate to `http://localhost:3000` to view the website
+6. Build for production:
+    Using npm: npm run build
+    Using yarn: yarn build
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to follow the coding standards for new features.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any questions or feedback, please contact me at `dhanasekhardsv@gmail.com` or `https://www.linkedin.com/in/dhana-sekhar/`.
