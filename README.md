@@ -47,15 +47,15 @@ Follow these steps to set up and run the React application on your local machine
 2. Navigate to the project directory:
     cd celebrities-profiles
 3. Install dependencies:
-- Using npm: npm install
-- Using yarn: yarn install
+⋅⋅⋅Using npm: npm install
+⋅⋅⋅Using yarn: yarn install
 4. Start the development server:
-- Using npm: npm start
-- Using yarn: yarn start
+⋅⋅⋅Using npm: npm start
+⋅⋅⋅Using yarn: yarn start
 5. Open your browser and navigate to `http://localhost:3000` to view the website
 6. Build for production:
-- Using npm: npm run build
-- Using yarn: yarn build
+⋅⋅⋅Using npm: npm run build
+⋅⋅⋅Using yarn: yarn build
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to follow the coding standards for new features.
