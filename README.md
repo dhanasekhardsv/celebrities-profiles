@@ -14,7 +14,7 @@ Welcome to the Celebrities Dashboard! This powerful and user-friendly web applic
 
 ## Features
 ### 1. Celebrities List:
-        - On the landing page, there will be a list of cebrities around the globe showing each user profile picture and full name.
+- On the landing page, there will be a list of cebrities around the globe showing each user profile picture and full name.
 ### 2. Details of each user:
         - Each user card is an accordion. You can expand and collapse the user details by clicking on down/up arrow placed at right side of profile card.
         - You can expand one user at a time. On expanding the user, you can find the details of corresponding user like Age, Gender, Country and Description.
