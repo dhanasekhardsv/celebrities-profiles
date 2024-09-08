@@ -1,4 +1,4 @@
-function calculateAge(dob) {
+export default function calculateAge(dob) {
     const birthDate = new Date(dob);
     const today = new Date();
 
@@ -11,5 +11,3 @@ function calculateAge(dob) {
 
     return age;
 }
-
-export default calculateAge;
